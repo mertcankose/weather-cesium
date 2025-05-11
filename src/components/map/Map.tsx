@@ -2,7 +2,6 @@ import { FC, useEffect, useRef, useState } from "react";
 import { Viewer } from "resium";
 import {
   Ion,
-  Math,
   Viewer as CesiumViewer,
   JulianDate,
   ClockRange,
