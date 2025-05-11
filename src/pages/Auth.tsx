@@ -16,8 +16,8 @@ import { isLoggedIn, login, register } from "@/lib/authService";
 
 const Auth: React.FC = () => {
   const navigate = useNavigate();
-  const [username, setUsername] = useState<string>("");
-  const [password, setPassword] = useState<string>("");
+  const [username, setUsername] = useState<string>("mertcan");
+  const [password, setPassword] = useState<string>("1230,aaa");
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
   const [success, setSuccess] = useState<string | null>(null);
