@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://weather-app-java-spring-boot-production.up.railway.app/api';
+const API_URL = 'https://weather-app-java-spring-boot-production-ad40.up.railway.app/api';
 
 // Function to register a new user
 export const register = async (username: string, password: string) => {
