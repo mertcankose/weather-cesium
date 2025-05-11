@@ -4,7 +4,6 @@ import {
   Cartesian3,
   Color,
   JulianDate,
-  CallbackProperty,
   Math as CesiumMath,
   HorizontalOrigin,
   VerticalOrigin,
@@ -44,7 +43,6 @@ const fallbackWeatherData: RainData[] = [
 
 // Zamanla değişecek olan hava durumu simülasyonu için başlangıç ve bitiş zamanları
 const start = JulianDate.fromIso8601("2023-01-01T00:00:00Z");
-const stop = JulianDate.fromIso8601("2023-01-02T00:00:00Z");
 
 const PrecipitationLayer: React.FC<PrecipitationLayerProps> = ({
   show,
